@@ -1,6 +1,5 @@
 import { Badge } from "@/components/ui/badge";
 import { Card } from "@/components/ui/card";
-import { ExternalLink } from "lucide-react";
 import { FaGithub } from "react-icons/fa";
 
 export default function ProjectCard2() {
@@ -9,7 +8,7 @@ export default function ProjectCard2() {
       <Card className="group overflow-hidden rounded-2xl border border-slate-700 bg-slate-800 hover:scale-[1.02] transition-all duration-300">
         <div className="h-60 w-full overflow-hidden">
           <img
-            src="https://images.shadcnspace.com/assets/card/property-cover-1.jpg"
+            src="three-proj.png"
             alt="Simple Dashboard"
             className="h-full w-full object-cover group-hover:scale-110 group-hover:brightness-75 transition duration-300"
           />
@@ -31,20 +30,12 @@ export default function ProjectCard2() {
             <Badge className="bg-slate-700 text-slate-200">CSS</Badge>
           </div>
 
-          <div className="flex gap-4 pt-2">
+          <div className="pt-2">
             <a
-              href="#"
-              className="flex items-center gap-1 text-sky-400 text-sm hover:underline"
-            >
-              <ExternalLink size={16} />
-              Live
-            </a>
-
-            <a
-              href="#"
+              href="https://github.com/jstncnnn/3-simple-projects"
               className="flex items-center gap-1 text-slate-200 text-sm hover:underline"
             >
-              <FaGithub size={16} />
+              <FaGithub size={16} className="text-slate-950" />
               Code
             </a>
           </div>
