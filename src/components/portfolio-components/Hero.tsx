@@ -1,5 +1,5 @@
-import { FaFacebook, FaInstagram, FaGithub } from "react-icons/fa";
-import { FaLocationDot } from "react-icons/fa6";
+import { FaFacebook, FaGithub } from "react-icons/fa";
+import { FaLinkedin, FaLocationDot } from "react-icons/fa6";
 import { Highlighter } from "../ui/highlighter";
 
 export default function Hero() {
@@ -41,16 +41,16 @@ export default function Hero() {
             </a>
 
             <a
-              href="https://www.instagram.com/jstncnnn_/"
+              href="https://www.linkedin.com/in/justin-cunanan-74b77b280/"
               target="_blank"
               rel="noopener noreferrer"
               className="transition-transform duration-200 hover:scale-125"
             >
-              <FaInstagram size={20} className="text-pink-500" />
+              <FaLinkedin size={23} className="text-[#0a66c2]" />
             </a>
 
             <a
-              href="https://twitter.com/jstncnnn_"
+              href="https://github.com/jstncnnn"
               target="_blank"
               rel="noopener noreferrer"
               className="transition-transform duration-200 hover:scale-125"
