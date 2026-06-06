@@ -8,12 +8,12 @@ function PortfolioMain() {
   return (
     <>
       <div className="min-h-screen">
-        <div className="">
-          <Hero />
-          <About />
-          <Projects />
+        <Hero />
+        <About />
+        <Projects />
+        <Contact />
+        <div className="hidden lg:block">
           <AppleDockDemo />
-          <Contact />
         </div>
       </div>
     </>
