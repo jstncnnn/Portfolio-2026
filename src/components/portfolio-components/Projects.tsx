@@ -1,4 +1,4 @@
-import ProjectCard from "./projectCard";
+import ProjectCard from "./ProjectCard";
 import ProjectCard2 from "./ProjectCard2";
 
 function Projects() {
