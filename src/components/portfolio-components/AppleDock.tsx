@@ -1,6 +1,7 @@
 "use client";
 
-import React, { type PropsWithChildren, useRef } from "react";
+import React, { useRef } from "react";
+import type { PropsWithChildren } from "react";
 import { cva, type VariantProps } from "class-variance-authority";
 import {
   motion,
@@ -10,13 +11,9 @@ import {
   useTransform,
 } from "motion/react";
 import type { MotionProps } from "motion/react";
-import {
-  House,
-  BadgeInfoIcon,
-  FolderGit2,
-  Mail,
-  type LucideIcon,
-} from "lucide-react";
+import { House, BadgeInfoIcon, FolderGit2, Mail } from "lucide-react";
+
+import type { LucideIcon } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 export interface AppleDockProps extends VariantProps<typeof appleDockVariants> {
