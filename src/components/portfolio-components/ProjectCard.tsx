@@ -35,6 +35,7 @@ export default function ProjectCard() {
           <div className="pt-2">
             <a
               href="https://github.com/jstncnnn/dashboard-ts"
+              target="_blank"
               className="flex items-center gap-1 text-slate-200 text-sm hover:underline"
             >
               <FaGithub size={16} className="text-slate-950" />
