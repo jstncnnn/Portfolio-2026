@@ -1,5 +1,4 @@
-import { Download } from "lucide-react";
-import { Button } from "../ui/button";
+import DownloadIcon from "../ui/download-icon";
 
 export default function About() {
   return (
@@ -35,10 +34,10 @@ export default function About() {
 
           <div className="mt-6 flex justify-center md:justify-start">
             <a href="Resume.pdf" download>
-              <Button variant="default">
-                View Resume
-                <Download />
-              </Button>
+              <button className="inline-flex items-center gap-2 px-3 py-2 rounded-full bg-slate-800 text-slate-100 hover:bg-slate-100 hover:text-slate-900 border border-slate-700 transition-all duration-300 shadow-sm">
+                Resume
+                <DownloadIcon />
+              </button>
             </a>
           </div>
         </div>
