@@ -1,5 +1,6 @@
-import ProjectCard from "./ProjectCard";
-import ProjectCard2 from "./ProjectCard2";
+import ProjectCard from "./proj/ProjectCard";
+import ProjectCard2 from "./proj/ProjectCard2";
+import ProjectCard3 from "./proj/ProjectCard3";
 
 function Projects() {
   return (
@@ -12,6 +13,7 @@ function Projects() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <ProjectCard />
           <ProjectCard2 />
+          <ProjectCard3 />
         </div>
       </div>
     </section>
